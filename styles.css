@@ -1,0 +1,15 @@
+a{
+   text-decoration-line: none;
+   color: cyan; 
+  font-style: helvetica; 
+  font-weight: bold; 
+}
+body{
+    background-color:rgb(200, 128, 100);
+}
+a:hover{
+    color: darkgray;
+    bottom:block ;
+    text-decoration-style: double;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initiale-scale=1">
+        <link rel="stylesheet" href="c:\users\acer\Desktop\Nouveau dossier\bootstrap.min.css">
+ <title>Formulaire</title>
+
+    </head>
+    <body style="background-color: gray;">
+        <div><h2 align="center"><u>Votre formulaire d'inscription</u></h2></div>
+        <marquee><p><h3 style="color:rgb(43, 198, 226);">Remplissez le formulaire ci-dessous:</h3></p></marquee>
+       
+        <form method="POST" action="traitement php">
+            <fieldset style="border-color: crimson;">
+                <legend bgcolor="marron" align="center"><u>INFORMATIONS</u></legend>
+                <fieldset  style="border-style: dashed;">
+                    <legend align="center"><u>ETAT CIVIL</u></legend>
+                    <div class="container"> 
+                    <div class="form-group"><label for="Nom">Nom:</label> <input  id="nom" name="nom" type="text" placeholder="entrez votre nom " class="form-control" style="background-color:lightcyan;" /></div><br>
+                    <div class="form-group"><label for="Prénom">Prénom:</label> <input  style="background-color:lightcyan; id="Prénom" name="Prénom" type="text" placeholder="entrez votre prénom" class="form-control" /> </div> <br>
+                </div>
+                </fieldset><br>
+                <fieldset  style="border-style: dashed;">
+                    <legend align="center"><u>PROFIL</u></legend>
+                    <div class="container"> 
+                       
+                           <label for="adresse">Adresse email:</label>
+                           <input  style="background-color:lightcyan;" id="adresse" name="adresse" type="mail" placeholder="entrez votre adresse mail" class="form-control" />
+                       
+                       
+                            <label for="numéro">Numéro de téléphone:</label> 
+                            <input  style="background-color:lightcyan;" id="numéro" name="numéro" type="text" placeholder="entrez votre numéro de téléphone" class="form-control">
+                
+                           <label for="photo">photo:</label>
+                           <input  style="background-color:lightcyan;" id="photo" name="photo" type="file" placeholder="Choisissez un fichier"class="form-control"/> <br>
+                          
+                        
+                        <label for="password" >password:</label> 
+                        <input style="background-color:lightcyan;"  id="password" name="password" type="password" placeholder="entrez votre mot de passe"  class="form-control/"><br>
+                       
+                    </div>
+                </fieldset><br>
+                <div class="container"> 
+            <label for="Nationalité" >Nationalité:</label>
+            <select  style="background-color:lightcyan;" name="Nationalité" id="Nationalité">
+                <option value="Béninoise">Béninoise</option><br>
+                <option value="Togolaise">Togolaise</option><br>
+                <option value="Ghanéenne">Ghanéenne</option><br>
+                <option value="Nigériane">Nigériane</option><br>
+                <option value="Congolaise">Congolaise</option><br>
+                <option value="Ivoirienne">Ivoirienne</option><br>
+                <option value="Malienne">Malienne</option><br>
+                <option value="Burkinabée">Burkinabée</option><br>
+                <option value="Camérounaise">Camérounaise</option><br>
+                <option value="Somalienne">Somalienne</option><br>
+                <option value="Sénégalaise">Sénégalaise</option><br>
+                <option value="Gabonnaise">Gabonnaise</option><br>
+                <option value="Egyptienne">Egyptienne</option><br>
+                <option value="Maroccaine">Maroccaine</option><br>
+            </select>
+            <p >Sexe :
+            <input  style="background-color:lightcyan;" id="sexe" name="sexe" type="radio" /> <label for="M">M</label>
+            <input   style="background-color:lightcyan;"id="sexe" name="sexe" type="radio" /> <label for="F">F</label> 
+            </p>
+                <label for="date">Date de naissance</label><input  style="background-color:lightcyan;" id="date" name="date" type="date" ><br><br>
+             
+            <p>Situation matrimoniale:<br><br>
+                <label for="Marié">Marié(e)</label><input id="Marié" name="SM" type="radio" ><br><br>
+                <label for="Célibataire1">célibataire sans enfants</label><input id="Célibataire1" name="SM" type="radio"  /><br><br>
+                <label for="Célibataire2">célibataire avec enfants</label><input id="Célibataire2" name="SM" type="radio" />
+            </p>
+             <label for="comment" > Mettez vos aspirations pour notre institut en quelques lignes</label> <textarea  style="background-color:lightcyan;" name="comment" id="comment" cols="40" rows="1"></textarea>     
+            <p>
+              <button  class="btn btn-default" type="submit" style="color:cyan;background-color: rgb(255, 16, 16);border-color:cornflowerblue;border-style:groove ;">Valider</button>
+              <button  class="btn btn-default btn-warning" type="reset" style="color:cyan;background-color: midnightblue;border-color: cornflowerblue;border-style: groove;">Réinitialiser</button>
+            </p>
+        </div>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
